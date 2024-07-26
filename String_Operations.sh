@@ -12,6 +12,7 @@ echo "Length of the character is : $myVarLength"
 
 echo "Upper case is ---- ${myVar^^}"
 echo "Lower case is ---- ${myVar,,}"
+echo""
 
 #To replace a string 
 newVar=${myVar/Buddy/Everyone}
@@ -19,5 +20,5 @@ echo "Replace Var is (Everyone) ---- $newVar"
 
 #To slice a string 
 echo "After slice : ${myVar:4:6}"
-
+echo""
 
